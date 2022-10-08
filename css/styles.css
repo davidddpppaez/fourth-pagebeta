@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.prueba {
+   
+}
+
+.separator { height: 20px;}
+.body-info {background-color: whitesmoke; }
+
+.header-info { background-color: #685C79;}
+.center-align {text-align: center;}
+.right-align {text-align: right;}
+
+.nav-info{display: block;}
+.nav-link ul {font-size: 0;}
+.nav-link li {list-style: none;}
+
+.nav-link a {
+    font-size: 16px;
+    color: whitesmoke;
+    display: inline-block;
+    width: 25%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-link a:hover {
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+}
+
+
+.logobeta {
+    margin: 20px 0;
+    width: 100%;
+    height: 150px;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.header-slider {
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 100%;
+    height: 150px;
+    color: whitesmoke;
+}
+
+.section-info {
+    background-color: whitesmoke;
+
+}
+
+
+
+.footer-info {height: 125px; width: 100%; background-color: whitesmoke; width: 100%;}
+.footer-info-1 { background-color: #685C79; border-top-right-radius: 20px;}
+.footer-info-2 { background-color: whitesmoke;}
+.footer-info-3 { background-color: #685C79; border-top-left-radius: 20px;}
+
+.footer-link a, .footer-link p {
+    padding-top: 1px;
+    padding-bottom: 0;
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer-link a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.footer-icon {font-size: 35px;}
+
+@media (max-width: 991px) {
+
+    .nav-info{ display: none ;}
+
+    .footer-align-left {float: left}
+    .footer-align-right {float: right;}
+
+    .footer-info-1 { border-top-right-radius: 0;}
+    .footer-info-2 { background-color: whitesmoke;}
+    .footer-info-3 { border-top-left-radius: 0;}
+}
